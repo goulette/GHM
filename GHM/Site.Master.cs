@@ -13,5 +13,15 @@ namespace GHM
         {
 
         }
+
+        protected void CarrierDropDownList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Response.Redirect("CarrierInfo.aspx?id=" + CarrierDropDownList.SelectedValue);
+        }
+
+        protected void UsefulSitesDropDownList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Response.Redirect("UsefulSite.aspx?id=" + UsefulSitesDropDownList.SelectedValue);
+        }
     }
 }

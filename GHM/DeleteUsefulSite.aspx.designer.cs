@@ -11,7 +11,7 @@ namespace GHM
 {
 
 
-    public partial class Contact
+    public partial class DeleteUsefulSite
     {
     }
 }

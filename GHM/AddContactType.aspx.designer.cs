@@ -10,51 +10,60 @@
 namespace GHM {
     
     
-    public partial class SiteMaster {
+    public partial class AddContactType {
         
         /// <summary>
-        /// CarrierDropDownList control.
+        /// AddContactTypeLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList CarrierDropDownList;
+        protected global::System.Web.UI.WebControls.Label AddContactTypeLabel;
         
         /// <summary>
-        /// DS_MasterCarriers control.
+        /// ContactType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource DS_MasterCarriers;
+        protected global::System.Web.UI.WebControls.Label ContactType;
         
         /// <summary>
-        /// UsefulSitesDropDownList control.
+        /// ContactTypeTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList UsefulSitesDropDownList;
+        protected global::System.Web.UI.WebControls.TextBox ContactTypeTextBox;
         
         /// <summary>
-        /// DS_MasterUsefulSites control.
+        /// ErrorMsg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource DS_MasterUsefulSites;
+        protected global::System.Web.UI.WebControls.Label ErrorMsg;
         
         /// <summary>
-        /// MainContent control.
+        /// AddButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.Button AddButton;
+        
+        /// <summary>
+        /// CancelButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button CancelButton;
     }
 }

@@ -10,51 +10,51 @@
 namespace GHM {
     
     
-    public partial class SiteMaster {
+    public partial class EditCarrierDocuments {
         
         /// <summary>
-        /// CarrierDropDownList control.
+        /// EditCarrierLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList CarrierDropDownList;
+        protected global::System.Web.UI.WebControls.Label EditCarrierLabel;
         
         /// <summary>
-        /// DS_MasterCarriers control.
+        /// CarrierHeader control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource DS_MasterCarriers;
+        protected global::GHM.GHMUserControls CarrierHeader;
         
         /// <summary>
-        /// UsefulSitesDropDownList control.
+        /// DocumentTreeView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList UsefulSitesDropDownList;
+        protected global::System.Web.UI.WebControls.TreeView DocumentTreeView;
         
         /// <summary>
-        /// DS_MasterUsefulSites control.
+        /// SaveButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource DS_MasterUsefulSites;
+        protected global::System.Web.UI.WebControls.Button SaveButton;
         
         /// <summary>
-        /// MainContent control.
+        /// CancelButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.Button CancelButton;
     }
 }
